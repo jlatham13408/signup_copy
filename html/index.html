@@ -25,19 +25,39 @@
         text-decoration: none;
       }
 
+			h1 {
+				font-size: 30px;
+				margin-top: 5%;
+				margin-left: 37.5%;
+			}
+
       input[type="text"] {
-        align-items: center;
-        width: 150px;
-        height: 20px;
-        display: block;
+        width: 350px;
+        height: 35px;
+				padding: 4px;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				display: block;
         border-color: cyan;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
       }
 
-      .center {
+			input[type="password"] {
+				width: 350px;
+				height: 35px;
+				padding: 4px;
+				margin: 0%;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				display: block;
+				border-color: cyan;
+				margin-bottom: 40px;
+			}
+
+			.center {
         margin: auto;
-        width: 15%;
-        padding: 10px;
+				width: 25%;
+        padding: 20px;
       }
 
     </style>
@@ -53,17 +73,16 @@
       </ul>
 
 
-      <h1 align="center">Join Twitter Today!</h1>
+      <h1>Join Twitter Today!</h1>
 
-      <div class="center"
-      <form action="action_page.php">
-        <br>
-        <input type="text" name="fullname" placeholder="Full Name">
-        <br>
-        <input type="text" name="phone or email" placeholder="Phone or Email">
-        <br>
-        <input type="password" alt="post" name="password" placeholder="Password">
-        <br><br>
+		  	<div class="center">
+      		<form action="action_page.php">
+        		<input type="text" name="fullname" placeholder="Full Name">
+        		<input type="text" name="phone or email" placeholder="Phone or Email">
+			  		<input type="password" alt="post" name="password" placeholder="Password">
+
+				</div>
+
 
         <p>Tailor Twitter based on my recent website visits. Learn more.</p>
 
