@@ -32,17 +32,19 @@
 			}
 
       input[type="text"] {
-        width: 350px;
+				font-size: 18px;
+				width: 350px;
         height: 35px;
 				padding: 4px;
 				border: 1px solid #ccc;
 				border-radius: 4px;
 				display: block;
-        border-color: cyan;
+        border-color: light-grey;
         margin-bottom: 40px;
       }
 
 			input[type="password"] {
+				font-size: 18px;
 				width: 350px;
 				height: 35px;
 				padding: 4px;
@@ -50,7 +52,7 @@
 				border: 1px solid #ccc;
 				border-radius: 4px;
 				display: block;
-				border-color: cyan;
+				border-color: light-grey;
 				margin-bottom: 40px;
 			}
 
@@ -59,6 +61,18 @@
 				width: 25%;
         padding: 20px;
       }
+
+			div p {
+				margin-left: 38.5%;
+			}
+			a:link {
+	    	text-decoration: none;
+			}
+			a:visited {
+	    	text-decoration: none;
+			}
+			a:hover {
+	    	text-decoration: underline;
 
     </style>
   </head>
@@ -80,11 +94,11 @@
         		<input type="text" name="fullname" placeholder="Full Name">
         		<input type="text" name="phone or email" placeholder="Phone or Email">
 			  		<input type="password" alt="post" name="password" placeholder="Password">
-
 				</div>
 
-
-        <p>Tailor Twitter based on my recent website visits. Learn more.</p>
+				<div p>
+        <p><b>Tailor Twitter based on my recent website visits.  <a href="default.asp" target="_blank">Learn more.</a></b></p>
+				</div>
 
         <input type="submit" name="signup" value="Sign up">
       </form>
