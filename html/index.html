@@ -1,22 +1,75 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> MEAN Template </title>
-	</head>
-	<body>
-		<!-- Let's fill in some things -->
-		<form action=”/signup” method=”POST”>
-		<div>
-			<label for=”name>Name:</label>
-			<input type=”text” id=”name” name=”name” placeholder=”Enter your name”>
-		</div>
-			<label for=”email”>Email:</label>
-			<input type=”email” id=”email” name=”email” placeholder=”Enter your email”>
-		</div>
-		<div>
-			<button type=”submit”>Signup</button>
-			<input type=”submit” value=”Signup”>
-		</div>
-		</form>
-	</body>
+		<title> Signup_Copy </title>
+		<style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow: hidden;
+        background-color: #00CCFF;
+        height: 100%;
+      }
+
+      li {
+        float: right;
+      }
+
+      li a {
+        display: block;
+        color: blue;
+        text-align: right;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      input[type="text"] {
+        align-items: center;
+        width: 150px;
+        height: 20px;
+        display: block;
+        border-color: cyan;
+        margin-bottom: 20px;
+      }
+
+      .center {
+        margin: auto;
+        width: 15%;
+        padding: 10px;
+      }
+
+    </style>
+  </head>
+    <body>
+      <!-- Let's fill in some things -->
+
+    <nav>
+      <ul>
+        <li><a href="login.asp">Have an account? Log in</a></li>
+        <li><a href="language.asp">Language:</a></li>
+        <li><a href="image.asp"></a></li>
+      </ul>
+
+
+      <h1 align="center">Join Twitter Today!</h1>
+
+      <div class="center"
+      <form action="action_page.php">
+        <br>
+        <input type="text" name="fullname" placeholder="Full Name">
+        <br>
+        <input type="text" name="phone or email" placeholder="Phone or Email">
+        <br>
+        <input type="password" alt="post" name="password" placeholder="Password">
+        <br><br>
+
+        <p>Tailor Twitter based on my recent website visits. Learn more.</p>
+
+        <input type="submit" name="signup" value="Sign up">
+      </form>
+
+
+    </body>
 </html>
