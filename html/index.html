@@ -19,11 +19,16 @@
 
       li a {
         display: block;
-        color: blue;
+        color: white;
         text-align: right;
         padding: 14px 16px;
         text-decoration: none;
       }
+
+		.img {
+  		width: 30px;
+			height: 20px;
+  	}
 
 			h1 {
 				font-size: 30px;
@@ -33,19 +38,19 @@
 
       input[type="text"] {
 				font-size: 18px;
-				width: 350px;
+				width: 360px;
         height: 35px;
 				padding: 4px;
 				border: 1px solid #ccc;
 				border-radius: 4px;
 				display: block;
         border-color: light-grey;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
       }
 
 			input[type="password"] {
 				font-size: 18px;
-				width: 350px;
+				width: 360px;
 				height: 35px;
 				padding: 4px;
 				margin: 0%;
@@ -53,7 +58,21 @@
 				border-radius: 4px;
 				display: block;
 				border-color: light-grey;
-				margin-bottom: 40px;
+				margin-bottom: 10px;
+			}
+
+			input[type="submit"] {
+				font-size: 18px;
+				background-color: #00CCFF;
+				border: none;
+    		color: white;
+				padding: 15px;
+				text-decoration: none;
+				width: 370px;
+    		margin-left: 37.55%;
+				margin-bottom: 0%;
+    		cursor: pointer;
+				border-radius: 4px;
 			}
 
 			.center {
@@ -61,10 +80,12 @@
 				width: 25%;
         padding: 20px;
       }
-
-			div p {
-				margin-left: 38.5%;
+			.learn {
+				font-size: 14px;
+				margin-left: 37.5%;
+				margin-bottom: 2%;
 			}
+
 			a:link {
 	    	text-decoration: none;
 			}
@@ -73,6 +94,13 @@
 			}
 			a:hover {
 	    	text-decoration: underline;
+			}
+			.policy {
+					font-size: 13px;
+					margin-left: 37.8%;
+					margin-right: 34%;
+					margin-bottom: 2%;
+				}
 
     </style>
   </head>
@@ -83,9 +111,7 @@
       <ul>
         <li><a href="login.asp">Have an account? Log in</a></li>
         <li><a href="language.asp">Language:</a></li>
-        <li><a href="image.asp"></a></li>
-      </ul>
-
+			</ul>
 
       <h1>Join Twitter Today!</h1>
 
@@ -96,12 +122,20 @@
 			  		<input type="password" alt="post" name="password" placeholder="Password">
 				</div>
 
-				<div p>
-        <p><b>Tailor Twitter based on my recent website visits.  <a href="default.asp" target="_blank">Learn more.</a></b></p>
+				<div class="learn">
+					<input type="checkbox" name="checkbox">Tailor Twitter based on my recent website visits.  <a href="default.asp" target="_blank">Learn more.
+        </div>
+
+        <input type="submit" value="Sign up">
+
+				<div class="policy">
+					<p><a>By signing up, you agree to the</a> <a href="default.asp" target="_blank">Terms of Service</a> and <a href="default.asp" target="_blank">Privacy Policy</a>, including <a href="default.asp" target="_blank">Cookie Use.</a> Others will be able to find you by email or phone number when provided.
+					</p>
+					<a href="default.asp" target="_blank">Advanced options</a>
+
 				</div>
 
-        <input type="submit" name="signup" value="Sign up">
-      </form>
+			</form>
 
 
     </body>
