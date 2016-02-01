@@ -3,9 +3,10 @@
 	<head>
 		<title> Signup_Copy </title>
 		<style>
-      ul {
+
+			ul {
         list-style-type: none;
-        margin: 0;
+        margin: auto;
         padding: 0;
         width: 100%;
         overflow: hidden;
@@ -14,21 +15,27 @@
       }
 
       li {
-        float: right;
+				font-size: 18px;
+				margin-right: 100px;
+				float: right;
       }
 
       li a {
         display: block;
         color: white;
-        text-align: right;
-        padding: 14px 16px;
+        padding: 14px;
         text-decoration: none;
       }
 
-		.img {
-  		width: 30px;
-			height: 20px;
-  	}
+			div.img {
+    		margin: 5px;
+				float: right;
+			}
+
+			div.img img {
+				padding: 10px 10px;
+				margin-right: 100px;
+			}
 
 			h1 {
 				font-size: 30px;
@@ -36,7 +43,7 @@
 				margin-left: 37.5%;
 			}
 
-      input[type="text"] {
+      input[type=text] {
 				font-size: 18px;
 				width: 360px;
         height: 35px;
@@ -109,7 +116,11 @@
 
     <nav>
       <ul>
-        <li><a href="login.asp">Have an account? Log in</a></li>
+				<div class="img">
+				  <a target="_blank" href="dove.jpg">
+				    <img src="dove.jpg" alt="dove" width="30" height="30">
+				  </a>
+				<li><a href="login.asp">Have an account? Log in</a></li>
         <li><a href="language.asp">Language:</a></li>
 			</ul>
 
@@ -129,10 +140,9 @@
         <input type="submit" value="Sign up">
 
 				<div class="policy">
-					<p><a>By signing up, you agree to the</a> <a href="default.asp" target="_blank">Terms of Service</a> and <a href="default.asp" target="_blank">Privacy Policy</a>, including <a href="default.asp" target="_blank">Cookie Use.</a> Others will be able to find you by email or phone number when provided.
+					<p><a></a>By signing up, you agree to the <a href="default.asp" target="_blank">Terms of Service</a> and <a href="default.asp" target="_blank">Privacy Policy</a>, including <a href="default.asp" target="_blank">Cookie Use.</a> Others will be able to find you by email or phone number when provided.
 					</p>
 					<a href="default.asp" target="_blank">Advanced options</a>
-
 				</div>
 
 			</form>
